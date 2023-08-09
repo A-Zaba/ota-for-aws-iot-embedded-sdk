@@ -6,8 +6,6 @@
 # added to the variables.
 
 # 3rdparty source files.
-# include(
-#   ${CMAKE_CURRENT_LIST_DIR}/source/dependency/coreJSON/jsonFilePaths.cmake)
 
 set(JSON_SOURCES 
     "${CMAKE_CURRENT_LIST_DIR}/source/core_json.c"
