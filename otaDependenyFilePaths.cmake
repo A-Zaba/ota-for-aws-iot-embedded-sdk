@@ -6,13 +6,8 @@
 # added to the variables.
 
 # 3rdparty source files.
-
-set(JSON_SOURCES 
-    "${CMAKE_CURRENT_LIST_DIR}/source/core_json.c"
-)
-set(JSON_INCLUDE_PUBLIC_DIRS 
-    "${CMAKE_CURRENT_LIST_DIR}/source/include"
-)
+include(
+  ${CMAKE_CURRENT_LIST_DIR}/source/dependency/coreJSON/jsonFilePaths.cmake)
 
 set(TINYCBOR_SOURCES
     "${CMAKE_CURRENT_LIST_DIR}/source/dependency/3rdparty/tinycbor/src/cborpretty.c"
